@@ -1,6 +1,6 @@
 # Just Browsing
 
-A Golang project inspired by the GitHub repository https://github.com/ochsec/just-browsing
+A terminal web browser
 
 ## Getting Started
 
@@ -11,4 +11,4 @@ A Golang project inspired by the GitHub repository https://github.com/ochsec/jus
 
 ## Project Status
 
-This is an initial setup for the project.
+Added windowing and mouse navigation.
