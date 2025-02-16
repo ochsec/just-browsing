@@ -273,7 +273,8 @@ func browseInteractive(initialURL string) error {
 	textView := tview.NewTextView().
 		SetDynamicColors(true).
 		SetRegions(true).
-		SetWordWrap(true)
+		SetWordWrap(true).
+		SetTextStyle(tcell.StyleDefault.Background(tcell.ColorDefault).Foreground(tcell.ColorDefault))
 	
 	var currentURL string
 	var links []LinkInfo
